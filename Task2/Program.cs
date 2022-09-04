@@ -29,7 +29,7 @@ int SumLine(int[,] array, int i)
 int minSumLine = 0;
 
 int sumLine = SumLine(array, 0);
-    for (int i = 1; i < array.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
         int tempSumLine = SumLine(array, i);
             
